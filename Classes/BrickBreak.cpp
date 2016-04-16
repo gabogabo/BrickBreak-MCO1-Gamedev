@@ -71,11 +71,11 @@ bool BrickBreak::init()
 				bricksLeft++;
 			}
 			else if (i== 1 || i==4||i==6) {
-				brick->spawnBrick(this, 1, j, yOffset);
+				brick->spawnBrick(this, 2, j, yOffset);
 				bricksLeft++;
 			}
 			else if (i == 2 || i == 3) {
-				brick->spawnBrick(this, 1, j, yOffset);
+				brick->spawnBrick(this, 3, j, yOffset);
 				bricksLeft++;
 			}
 		}
